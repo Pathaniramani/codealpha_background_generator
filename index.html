@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="color-box" id="color-box"></div>
+        <div class="options">
+            <label>
+                <input type="radio" name="color-type" id="basic-color" checked> Basic Color
+            </label>
+            <label>
+                <input type="radio" name="color-type" id="gradient-color"> Gradient Color
+            </label>
+        </div>
+        <button id="generate-btn">Generate Color</button>
+        <div class="customization">
+            <label for="custom-color">Custom Color:</label>
+            <input type="color" id="custom-color" value="#3498db">
+        </div>
+        <input type="text" id="color-code" placeholder="Color Code" readonly>
+        <button id="copy-btn">Copy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
