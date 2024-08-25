@@ -1,3 +1,4 @@
+echo "this is omai"
 const colorBox = document.getElementById("color-box");
 const basicColorRadio = document.getElementById("basic-color");
 const gradientColorRadio = document.getElementById("gradient-color");
